@@ -1,0 +1,25 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Russian\n"
+"Language: ru_RU"
+
+msgctxt "Addons::name::ee_hide_order_status"
+msgid "ee_hide_order_status_name"
+msgstr "[efimchenko.ru] Скрыть статусы заказа"
+
+msgctxt "Addons::description::ee_hide_order_status"
+msgid "ee_hide_order_status_description"
+msgstr "Модуль скрывает статусы заказа согласно его настройкам."
+
+msgctxt "SettingsSections::ee_hide_order_status::general"
+msgid "ee_hide_order_status_general"
+msgstr "Общее"
+
+msgctxt "SettingsOptions::ee_hide_order_status::ee_hide_order_status_active"
+msgid "ee_hide_order_status_active"
+msgstr "Активировать"
+
+msgctxt "SettingsTooltips::ee_hide_order_status::ee_hide_order_status_active"
+msgid "ee_hide_order_status_active_tooltips"
+msgstr "Подсказка"
