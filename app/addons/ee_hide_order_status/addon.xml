@@ -14,15 +14,24 @@
         <sections>
             <section id="general">
                 <items>
-                    <item id="ee_hide_order_status_active">                      
-                        <type>hidden</type>
-						<default_value>Y</default_value>
-                    </item>
+                    <item id="ee_hide_order_status_settings">                      
+                        <type>template</type>
+						<default_value>settings.tpl</default_value>
+                    </item>					
                 </items>
             </section>
         </sections>
     </settings>
-
+	<queries>
+	<item>
+	CREATE TABLE IF NOT EXISTS `?:ee_hide_order_status_opt` (
+	`id` mediumint(8) unsigned NOT NULL auto_increment,
+	`chr_status` char(1) NOT NULL,
+	`fields` varchar(50) NOT NULL,
+	PRIMARY KEY (`id`, `chr_status`)
+	) DEFAULT CHARSET UTF8;
+	</item>
+	</queries>
     <functions>
         <item for="install">fn_ee_hide_order_status_install</item>
         <item for="uninstall">fn_ee_hide_order_status_uninstall</item>

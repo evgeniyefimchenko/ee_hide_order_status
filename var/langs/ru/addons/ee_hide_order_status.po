@@ -15,11 +15,3 @@ msgstr "Модуль скрывает статусы заказа согласн
 msgctxt "SettingsSections::ee_hide_order_status::general"
 msgid "ee_hide_order_status_general"
 msgstr "Общее"
-
-msgctxt "SettingsOptions::ee_hide_order_status::ee_hide_order_status_active"
-msgid "ee_hide_order_status_active"
-msgstr "Активировать"
-
-msgctxt "SettingsTooltips::ee_hide_order_status::ee_hide_order_status_active"
-msgid "ee_hide_order_status_active_tooltips"
-msgstr "Подсказка"
