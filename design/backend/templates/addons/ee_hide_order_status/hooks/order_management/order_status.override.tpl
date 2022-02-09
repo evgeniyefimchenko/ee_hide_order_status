@@ -1,0 +1,2 @@
+{$order_statuses = $order_statuses|fn_ee_hide_order_status_change_status:$cart.order_status}
+{include file="common/select_object.tpl" text_wrap=true style="field" items=$order_statuses select_container_name="order_status" selected_key=$cart.order_status|default:"O"}
