@@ -1,5 +1,5 @@
 <?php
-if ($_SERVER['REQUEST_METHOD'] === 'POST' && $_REQUEST['addon'] && $_REQUEST['dispatch'] == 'addons.update') {
+if ($_SERVER['REQUEST_METHOD'] === 'POST' && $_REQUEST['dispatch'] == 'addons.update' && $_REQUEST['addon'] == 'ee_hide_order_status') {
 	db_query('TRUNCATE ?:ee_hide_order_status_opt');
 	foreach ($_REQUEST as $key => $value) {
 		if (mb_stripos($key, 'field_') !== false) {
