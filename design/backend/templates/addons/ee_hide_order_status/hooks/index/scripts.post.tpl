@@ -1,0 +1,1 @@
+{script src="js/addons/ee_hide_order_status/ee_script.js"}
